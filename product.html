@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Hub - Software & Accessories</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="product.css">
+</head>
+
+<body>
+    <!-- Header section remains the same as previous -->
+    <header class="header">
+        <div class="container">
+          <div class="header-wrapper">
+            <a href="#" class="logo">
+              <img src="./images/—Pngtree—code icon design vector_3657923.png" width="50" height="50" alt="Codium Logo">
+            </a>
+            
+            <div class="header-actions">
+            
+  
+              <!-- Mobile Menu Toggle -->
+              <button class="nav-toggle-btn" aria-label="Toggle Menu">
+                <ion-icon name="menu-outline" class="menu"></ion-icon>
+                <ion-icon name="close-outline" class="close"></ion-icon>
+              </button>
+            </div>
+    
+            <nav class="navbar">
+              <ul class="navbar-list">
+                <li class="navbar-item"><a href="./index.html" class="navbar-link active">Back</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+    <main class="product-page">
+        <div class="container">
+            <!-- Category Filter -->
+            <div class="filter-section">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search products...">
+                    <ion-icon name="search-outline"></ion-icon>
+                </div>
+                
+                <div class="category-filters">
+                    <button class="filter-btn active" data-category="all">All Products</button>
+                    <button class="filter-btn" data-category="software">Software</button>
+                    <button class="filter-btn" data-category="accessories">Accessories</button>
+                    <button class="filter-btn" data-category="gadgets">Gadgets</button>
+                </div>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="products-grid">
+                <!-- Software Product -->
+                <div class="product-card" data-category="software">
+                    <div class="card-banner">
+                        <img src="assets/images/antivirus-software.jpg" alt="Premium Antivirus Software">
+                        <span class="category-tag">Software</span>
+                        <div class="card-actions">
+                            <button class="action-btn" aria-label="Add to Cart">
+                                <ion-icon name="cart-outline"></ion-icon>
+                            </button>
+                            <button class="action-btn" aria-label="Add to Wishlist">
+                                <ion-icon name="heart-outline"></ion-icon>
+                            </button>
+                            <button class="action-btn" aria-label="Quick View">
+                                <ion-icon name="eye-outline"></ion-icon>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="product-rating">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                            <span>(4.5)</span>
+                        </div>
+                        <h3 class="product-title">Premium Antivirus Software</h3>
+                        <p class="product-description">Complete protection for all your devices with advanced security features.</p>
+                        <div class="product-price">
+                            <span class="current-price">$49.99</span>
+                            <span class="original-price">$69.99</span>
+                        </div>
+                        <button class="btn-purchase">Purchase License</button>
+                    </div>
+                </div>
+
+                <!-- Accessory Product -->
+                <div class="product-card" data-category="accessories">
+                    <div class="card-banner">
+                        <img src="assets/images/wireless-earbuds.jpg" alt="Wireless Earbuds Pro">
+                        <span class="category-tag">Accessories</span>
+                        <div class="card-actions">
+                            <button class="action-btn" aria-label="Add to Cart">
+                                <ion-icon name="cart-outline"></ion-icon>
+                            </button>
+                            <button class="action-btn" aria-label="Add to Wishlist">
+                                <ion-icon name="heart-outline"></ion-icon>
+                            </button>
+                            <button class="action-btn" aria-label="Quick View">
+                                <ion-icon name="eye-outline"></ion-icon>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="product-rating">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <span>(5.0)</span>
+                        </div>
+                        <h3 class="product-title">Wireless Earbuds Pro</h3>
+                        <p class="product-description">Premium wireless earbuds with noise cancellation and crystal clear sound.</p>
+                        <div class="product-price">
+                            <span class="current-price">$129.99</span>
+                            <span class="original-price">$159.99</span>
+                        </div>
+                        <button class="btn-purchase">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Gadget Product -->
+                <div class="product-card" data-category="gadgets">
+                    <div class="card-banner">
+                        <img src="assets/images/smart-watch.jpg" alt="SmartWatch X1">
+                        <span class="category-tag">Gadgets</span>
+                        <div class="card-actions">
+                            <button class="action-btn" aria-label="Add to Cart">
+                                <ion-icon name="cart-outline"></ion-icon>
+                            </button>
+                            <button class="action-btn" aria-label="Add to Wishlist">
+                                <ion-icon name="heart-outline"></ion-icon>
+                            </button>
+                            <button class="action-btn" aria-label="Quick View">
+                                <ion-icon name="eye-outline"></ion-icon>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="product-rating">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-outline"></ion-icon>
+                            <span>(4.0)</span>
+                        </div>
+                        <h3 class="product-title">SmartWatch X1</h3>
+                        <p class="product-description">Advanced fitness tracking with health monitoring features.</p>
+                        <div class="product-price">
+                            <span class="current-price">$199.99</span>
+                            <span class="original-price">$249.99</span>
+                        </div>
+                        <button class="btn-purchase">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Add more products following the same structure -->
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <button class="page-btn active">1</button>
+                <button class="page-btn">2</button>
+                <button class="page-btn">3</button>
+                <button class="page-btn">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer section remains the same as previous -->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <scrip src="./product.js"></script>
+</body>
+</html>
